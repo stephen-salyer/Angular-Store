@@ -1,4 +1,22 @@
+h3 {
+  font-size: 1.8rem;
+}
 
+.products {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.phone {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+.phone img {
+  width: 100vw;
+  max-width: 500px;
+}
 
 /*
 Copyright Google LLC. All Rights Reserved.

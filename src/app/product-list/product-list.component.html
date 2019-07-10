@@ -1,12 +1,16 @@
 <h2>Products</h2>
 
-<div *ngFor="let product of products; index as productId">
+<div *ngFor="let product of products; index as productId" class="products">
 
   <h3>
     <a [title]="product.name + ' details'" [routerLink]="['/products', productId]">
      {{ product.name }}
     </a>
   </h3>
+
+  <div class="phone">
+    <img src="https://lh3.googleusercontent.com/LE3yXAfWtqdI9z2cVq1gyTesirkbsf0DaFxaN4lIySntumlFDcsVU4Gl9N63Nbr1JHw1=rw-w1144">
+  </div>
 
   <p *ngIf="product.description">
     Description: {{ product.description }}
