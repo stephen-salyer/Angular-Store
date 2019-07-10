@@ -18,6 +18,16 @@ h3 {
   max-width: 500px;
 }
 
+button {
+  margin: .9rem;
+}
+
+.product-buttons {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 0 -15px;
+}
+
 /*
 Copyright Google LLC. All Rights Reserved.
 Use of this source code is governed by an MIT-style license that
